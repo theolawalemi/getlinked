@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
 }
 .header .navbar-nav .nav-item .nav-link .nav-container {
-  transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 .header .navbar-nav .nav-item .nav-link .nav-text {
     display: block;
@@ -882,6 +882,11 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: -6.5rem;
     }
 }
+@media only screen and (max-width: 1440px) {
+    .hero-section .hero-curve {
+        right: 2rem;
+    }
+}
 @media only screen and (max-width: 1200px) {
     .section-heading {
         font-size: 1.5rem;
@@ -895,7 +900,6 @@ h1, h2, h3, h4, h5, h6 {
     } 
     .hero-section .hero-curve {
         width: 8rem;
-
     }
     .hero-section .hero-chain {
         width: 2.5rem;
